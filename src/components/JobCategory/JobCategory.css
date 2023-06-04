@@ -1,0 +1,27 @@
+.job-category-box{
+    padding:20px;
+    background: rgba(152, 115, 255, 0.05);
+}
+.category-icon{
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    background: rgba(152, 115, 255, 0.1);
+}
+.category-title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+    margin-top: 16px;
+}
+.category-info{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A3A3A3;
+}

@@ -1,0 +1,61 @@
+.job-details-header{
+    background-image: url(../../assets/images/Vector-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background:rgba(152, 115, 255, 0.05);
+}
+.job-details-header-title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1919;
+    padding: 100px;
+    text-align: center;
+}
+.job-details-section{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+}
+.apply-part{
+    background:rgba(152, 115, 255, 0.05);
+    padding: 20px;
+}
+.details-part p{
+    margin-bottom: 20px;
+}
+.apply-part p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #474747;
+    margin: 8px 0;
+}
+.apply-part hr{
+    background-color: #9873FF;
+}
+.flex-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.apply-part h2{
+    margin-bottom: 16px;
+}
+.apply-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #9873FF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

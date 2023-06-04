@@ -1,0 +1,42 @@
+.job-categories{
+    padding: 80px 100px 0;
+    background: #fff;
+}
+.job-categories-title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+    text-align: center;
+}
+.job-categories-des{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+.jo-categories-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px){
+    .jo-categories-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width: 992px){
+        .job-categories{
+            padding: 40px 50px 0;
+        }
+        .job-categories-title{
+            font-size: 35px;
+        }
+}

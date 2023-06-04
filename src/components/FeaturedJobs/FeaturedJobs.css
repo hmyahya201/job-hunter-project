@@ -1,0 +1,56 @@
+.featured-jobs{
+    padding: 80px 100px 50px;
+    display: grid;
+    place-items: center;
+}
+.featured-jobs-titel{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #1A1919;
+}
+.featured-jobs-des{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+.fratured-jobs-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.see-all-jobs-btn{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+@media (max-width: 768px) {
+    .fratured-jobs-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media (max-width: 992px){
+    .featured-jobs-titel{
+        font-size: 35px;
+    }
+    .featured-jobs{
+        padding: 40px 50px 50px;
+    }
+}
+  @media (min-width: 993px){
+    .featured-jobs-titel{
+        font-size: 45px;
+    }
+    .featured-jobs{
+        padding: 80px 100px 50px;
+    }
+}
